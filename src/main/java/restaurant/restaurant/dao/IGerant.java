@@ -1,0 +1,10 @@
+package restaurant.restaurant.dao;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import restaurant.restaurant.entities.Gerant;
+
+@Repository
+public interface IGerant extends JpaRepository<Gerant,Long> {
+}
